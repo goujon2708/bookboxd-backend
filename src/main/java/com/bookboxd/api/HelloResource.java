@@ -11,7 +11,6 @@ public class HelloResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        System.out.println("Je suis dans HelloResource");
         return "Hello from Bookboxd ! MTF";
     }
 }
